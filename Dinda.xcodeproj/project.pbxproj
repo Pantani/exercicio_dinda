@@ -44,6 +44,7 @@
 		35D75A2B1D3192FA00E8FECA /* Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
 		35D75A2C1D31B39000E8FECA /* DAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAO.h; sourceTree = "<group>"; };
 		35D75A2D1D31B39000E8FECA /* DAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAO.m; sourceTree = "<group>"; };
+		35FAF6AB1D32C03900EAE716 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +77,7 @@
 		35D759D61D30204400E8FECA /* Dinda */ = {
 			isa = PBXGroup;
 			children = (
+				35FAF6AB1D32C03900EAE716 /* README.md */,
 				35D75A191D30CD4400E8FECA /* Assets */,
 				35D75A051D30CB0600E8FECA /* Source */,
 			);

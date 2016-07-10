@@ -10,14 +10,14 @@
 
 @implementation Transaction
 @synthesize account_id = _account_id;
-@synthesize transaction = _transaction;
+@synthesize value = _value;
 
 - (id)initWithAccountID:(int)account_id
-            transaction:(int)transaction;
+                  value:(int)value;
 {
     NSAssert(account_id > 0, @"id inválido");
     _account_id = account_id;
-    _transaction = transaction;
+    _value = value;
     
     return self;
 }
@@ -27,7 +27,7 @@
     NSAssert(_account_id > 0, @"id inválido");
     return [NSString stringWithFormat:@"Transacao: id='%d' valor='%d'",
             _account_id,
-            _transaction];
+            _value];
 }
 
 @end

@@ -11,9 +11,9 @@
 @interface Transaction : NSObject
 
 @property (nonatomic, assign) int account_id;
-@property (nonatomic, assign) int transaction;
+@property (nonatomic, assign) int value;
 
 - (id)initWithAccountID:(int)account_id
-            transaction:(int)transaction;
+                  value:(int)value;
 
 @end

@@ -32,7 +32,7 @@
         NSNumber *transaction_value = columns[1];
         NSAssert(account_id != nil || transaction_value != nil, @"Problema ao ler arquivo");
         
-        Transaction *transaction = [[Transaction alloc] initWithAccountID:account_id.intValue transaction:transaction_value.intValue];
+        Transaction *transaction = [[Transaction alloc] initWithAccountID:account_id.intValue value:transaction_value.intValue];
         [database addObject:transaction];
     }
     

@@ -71,7 +71,7 @@ static id _sharedInstance = nil;
     [self getDatabase];
     
     for (Transaction *temp in _transactions) {
-        [self changeAccount:temp.account_id withBalance:temp.transaction];
+        [self changeAccount:temp.account_id withBalance:temp.value];
     }
     [self printDatabase];
 }
@@ -103,7 +103,7 @@ static id _sharedInstance = nil;
 
 -(void)getDatabase
 {
-    //#warning alterar testes
+    //#warning alterar testes internos
     //    _accounts = [DAO getAccountDatabaseWithPath:kAccountsPath];
     //    _transactions = [DAO getTransactionDatabaseWithPath:kTransactionsPath];
     _accounts = [DAO getAccountDatabaseWithPath:_accounts_path];
