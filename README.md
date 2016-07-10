@@ -12,7 +12,7 @@ Os arquivos `conta.csv` e `transacoes.csv` estão inclusos na pasta `Assets` par
 * Xcode
 * Command Line Tools
 
-## Rodando o projeto
+## Run
 
 Para rodar o projeto basta excutar o `Dinda.xcodeproj` e clicar em run, que o programa será executado, pedindo para o usuário indicar o caminho dos arquivos `conta.csv` e `transacoes.csv`
 
