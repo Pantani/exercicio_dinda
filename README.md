@@ -1,10 +1,9 @@
 # exercicio_dinda
 Teste para o processo seletivo na empresa Dinda:
+Programa de linha de comando para calcular o balanço da conta corrente de um conjunto de clientes.
 
-Programa de linha de comando para calcular o balanço da conta corrente de um conjunto de clientes.
 
-
-O software desenvolvido em Objective-C e C, e foi tratado com NSAssert, parando a execução do sistema caso haja algum erro. 
+Software desenvolvido em Objective-C e C, e foi tratado com NSAssert, parando a execução do sistema caso haja algum erro. 
 
 Os arquivos `conta.csv` e `transacoes.csv` estão inclusos na pasta `Assets` para testes. 
 
